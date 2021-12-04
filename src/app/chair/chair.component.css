@@ -1,0 +1,30 @@
+.contend{
+    display: flex;
+    flex-flow:  row wrap;
+    /* flex-wrap: wrap;
+    align-content: flex-start; */
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+/*     position: relative; */
+}
+.silla{
+    padding: 2px;
+    margin: 2px;
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: #2EC2F0;
+    color: white;
+    text-align: center;
+}
+
+
+.silla2{
+    padding: 2px;
+    margin: 2px;
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: #BB0082;
+    color: white;
+    text-align: center;
+}
+

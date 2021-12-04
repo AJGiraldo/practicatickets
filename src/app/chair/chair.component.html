@@ -1,0 +1,15 @@
+
+<div class="contend" >
+    <div class="silla"  *ngFor="let item of sillas1; let i =index" >
+        <div  *ngIf="i == 5">
+            <app-pallet></app-pallet>
+        </div>
+        <p *ngIf="i != 5"> {{ item }} </p>
+    </div>
+</div>
+<div class="contend">
+    <div class="silla2" *ngFor="let item2 of sillas2">
+        <p>{{ item2 }}</p>
+    </div>
+</div>
+<app-general></app-general>
